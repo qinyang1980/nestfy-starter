@@ -73,7 +73,7 @@
     "indent": [true, "spaces"],
     "max-line-length": [true, 120],
     "no-trailing-whitespace": true,
-    "interface-name": [true, "always-prefix"],
+    "interface-name": [false, "always-prefix"],
     "trailing-comma": [
       true,
       {
