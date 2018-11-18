@@ -4,7 +4,7 @@ import { PhotoModule } from './photo/photo.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/nest'),
+    MongooseModule.forRoot('mongodb://localhost:27017/test'),
     PhotoModule
   ]
 })

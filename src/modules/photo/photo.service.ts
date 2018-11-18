@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { CreatePhotoDto } from './dto/create-photo.dto';
@@ -23,7 +23,11 @@ export class PhotoService {
    * 根据id获取单个photo
    */
   public async findOneById(id: number): Promise<Photo> {
-    return this.photoModel.findById(id).exec();
+    const ret = await this.photoModel.findOne({ id }).exec();
+    if (ret === null) {
+      throw new NotFoundException(`没有查询到id(${id})的对应记录`);
+    }
+    return ret;
   }
 
   /**
@@ -38,14 +42,14 @@ export class PhotoService {
    * 根据id，修改某条记录
    */
   public async modify(id: number, modifyPhotoDto: ModifyPhotoDto): Promise<Photo> {
-    return this.photoModel.findByIdAndUpdate(id, modifyPhotoDto).exec();
+    return this.photoModel.findOneAndUpdate({ id }, modifyPhotoDto).exec();
   }
 
   /**
    * 删除某条记录
    */
   public async remove(id: number): Promise<any> {
-    return this.photoModel.remove({id});
+    return this.photoModel.remove({ id });
   }
 
   // /**

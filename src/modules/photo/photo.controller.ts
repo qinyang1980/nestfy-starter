@@ -6,9 +6,9 @@ import { AuthGuard } from 'nestfy';
 import * as rp from 'request-promise';
 import logger from '../../common/utils/logger';
 import { CreatePhotoDto } from './dto/create-photo.dto';
+import { ModifyPhotoDto } from './dto/modify-photo.dto';
 import { Photo } from './interfaces/photo.interface';
 import { PhotoService } from './photo.service';
-import { PhotoSchema } from './schemas/photo.schema';
 
 @ApiUseTags('photos')
 @Controller('photos')
@@ -20,7 +20,7 @@ export class PhotoController {
     return this._photoService.create(dto);
   }
 
-  @Get('findAll')
+  @Get()
   public async findAll(): Promise<Photo[]> {
     return this._photoService.findAll();
   }
@@ -31,7 +31,7 @@ export class PhotoController {
   }
 
   @Put(':id')
-  public async modify(@Param('id', new ParseIntPipe()) id: number, @Body() dto: CreatePhotoDto): Promise<Photo> {
+  public async modify(@Param('id', new ParseIntPipe()) id: number, @Body() dto: ModifyPhotoDto): Promise<Photo> {
     return this._photoService.modify(id, dto);
   }
 
@@ -61,7 +61,7 @@ export class PhotoController {
 
   @Get('exception/special-error')
   public async testForbiddenError(): Promise<any> {
-    throw new ForbiddenException('forbidden');
+    throw new ForbiddenException('禁止访问');
   }
 
   @Get('exception/programming-error')
