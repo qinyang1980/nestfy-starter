@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { PhotoController } from './photo.controller';
+import { PhotoSchema } from './photo.schema';
 import { PhotoService } from './photo.service';
-import { PhotoSchema } from './schemas/photo.schema';
 
 @Module({
   imports: [MongooseModule.forFeature([{ name: 'Photo', schema: PhotoSchema }])],
