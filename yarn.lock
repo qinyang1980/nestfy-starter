@@ -4142,10 +4142,10 @@ negotiator@0.6.1:
   resolved "http://registry.npm.taobao.org/negotiator/download/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
   integrity sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=
 
-nestfy@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmjs.org/nestfy/-/nestfy-0.6.0.tgz#688b25ab56085af2cf288f3149c9b451ac9cc9f6"
-  integrity sha512-/wDqBXgLRzCaeJsNKCUfmMofMEF6eEz+wdDt1UPC59PzLCrd3dJBQsEDdtfgH//c6JHy3GVohuPeU79hJtmnZg==
+nestfy@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.npmjs.org/nestfy/-/nestfy-0.6.1.tgz#e12990ba89fbdca694c813dd0e831ecd20b623be"
+  integrity sha512-RTSQ8NJVEFIyhbsNrcKQk35VVUIWY5egBiUKqbIZEbllddkedcTbOpyamwcPGe+AP/ecdCtES0ZvXiS/Sn5DGQ==
   dependencies:
     "@nestjs/common" "^5.4.0"
     "@nestjs/core" "^5.4.0"

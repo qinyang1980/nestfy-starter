@@ -21,7 +21,7 @@ export class PhotoController {
 
   @Get()
   public async findAll(): Promise<Photo[]> {
-    logger.info('test debug');
+    logger.info('call findAll operation');
     return this._photoService.findAll();
   }
 
