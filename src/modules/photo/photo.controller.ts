@@ -2,9 +2,8 @@ import { ParseIntPipe, UseGuards } from '@nestjs/common';
 import { ForbiddenException, InternalServerErrorException } from '@nestjs/common';
 import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { ApiUseTags } from '@nestjs/swagger';
-import { AuthGuard } from 'nestfy';
+import { AuthGuard, logger } from 'nestfy';
 import * as rp from 'request-promise';
-import logger from '../../common/utils/logger';
 import { CreatePhotoDto } from './dto/create-photo.dto';
 import { ModifyPhotoDto } from './dto/modify-photo.dto';
 import { Photo } from './interfaces/photo.interface';
@@ -22,6 +21,7 @@ export class PhotoController {
 
   @Get()
   public async findAll(): Promise<Photo[]> {
+    logger.info('test debug');
     return this._photoService.findAll();
   }
 
