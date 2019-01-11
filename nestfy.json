@@ -1,21 +1,28 @@
 {
   "app": {
-    "port": 3000,
+    "port": 8080,
     "setUpMsg": "Nestfy server started",
-    "log": {
+    "apiPrefix": {
       "enable": true,
-      "level": "debug",
-      "traceRequestDuration": true
-    },
+      "prefix": "/api/rest"
+    }
+  },
+  "logging": {
+    "enable": true,
+    "level": "debug"
+  },
+  "request": {
+    "traceRequestDuration": true,
     "cors": {
       "enable": true
     },
     "bodyParser": {
       "enable": true,
-      "limit": "10mb"
+      "limit": "5mb"
     },
     "validation": {
-      "enable": true
+      "enable": true,
+      "skipMissingProperties": true
     },
     "auth": {
       "enable": false,
@@ -25,10 +32,36 @@
       "decodedTag": "user"
     }
   },
+  "response": {
+    "success": {
+      "defaultMessage": "执行成功!",
+      "successField": {
+        "enable": true,
+        "name": "success"
+      },
+      "statusField": {
+        "enable": true,
+        "name": "status"
+      }
+    },
+    "failure": {
+      "defaultMessage": "执行失败!",
+      "successField": {
+        "enable": true,
+        "name": "success"
+      },
+      "statusField": {
+        "enable": true,
+        "name": "status"
+      }
+    }
+  },
   "swagger": {
     "enable": true,
     "title": "nestfy-starter",
+    "schemas": "http",
     "description": "The photo API description",
+    "email": "qinyang_1980@qq.com",
     "version": "1.0",
     "path": "/doc"
   }

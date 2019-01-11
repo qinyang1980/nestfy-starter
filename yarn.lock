@@ -18,7 +18,7 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@nestjs/common@^5.0.0", "@nestjs/common@^5.4.0":
+"@nestjs/common@^5.0.0":
   version "5.4.0"
   resolved "http://registry.npm.taobao.org/@nestjs/common/download/@nestjs/common-5.4.0.tgz#74aa7da0d6931349b0a2cbe813b83ad77c2797ec"
   integrity sha1-dKp9oNaTE0mwosvoE7g613wnl+w=
@@ -29,7 +29,18 @@
     multer "1.3.0"
     uuid "3.3.2"
 
-"@nestjs/core@^5.0.0", "@nestjs/core@^5.4.0":
+"@nestjs/common@^5.5.0":
+  version "5.5.0"
+  resolved "http://registry.npm.taobao.org/@nestjs/common/download/@nestjs/common-5.5.0.tgz#6427d440f96e23c38945620fd74cb6ec61da8224"
+  integrity sha1-ZCfUQPluI8OJRWIP10y27GHagiQ=
+  dependencies:
+    axios "0.18.0"
+    cli-color "1.2.0"
+    deprecate "1.0.0"
+    multer "1.3.0"
+    uuid "3.3.2"
+
+"@nestjs/core@^5.0.0":
   version "5.4.0"
   resolved "http://registry.npm.taobao.org/@nestjs/core/download/@nestjs/core-5.4.0.tgz#0c082ef019b5e435a9330feb3fe0101f3978af4e"
   integrity sha1-DAgu8Bm15DWpMw/rP+AQHzl4r04=
@@ -45,10 +56,26 @@
     path-to-regexp "2.2.1"
     uuid "3.3.2"
 
-"@nestjs/microservices@^5.4.0":
-  version "5.4.0"
-  resolved "http://registry.npm.taobao.org/@nestjs/microservices/download/@nestjs/microservices-5.4.0.tgz#5d12743e521a5b927409969c6f629d2d98e96ea8"
-  integrity sha1-XRJ0PlIaW5J0CZacb2KdLZjpbqg=
+"@nestjs/core@^5.5.0":
+  version "5.5.0"
+  resolved "http://registry.npm.taobao.org/@nestjs/core/download/@nestjs/core-5.5.0.tgz#4f80bcfda1b964a6e1702c32f0afcbcc4a1706f7"
+  integrity sha1-T4C8/aG5ZKbhcCwy8K/LzEoXBvc=
+  dependencies:
+    "@nuxtjs/opencollective" "0.1.0"
+    body-parser "1.18.3"
+    cors "2.8.4"
+    express "4.16.3"
+    fast-safe-stringify "1.2.0"
+    iterare "0.0.8"
+    object-hash "1.3.0"
+    optional "0.1.4"
+    path-to-regexp "2.2.1"
+    uuid "3.3.2"
+
+"@nestjs/microservices@^5.5.0":
+  version "5.5.0"
+  resolved "http://registry.npm.taobao.org/@nestjs/microservices/download/@nestjs/microservices-5.5.0.tgz#9fd6ef84dd1ccc955aed6fac910be874cbd9a1a8"
+  integrity sha1-n9bvhN0czJVa7W+skQvodMvZoag=
   dependencies:
     iterare "0.0.8"
     json-socket "^0.2.1"
@@ -71,10 +98,10 @@
     "@nestjs/common" "^5.0.0"
     "@nestjs/core" "^5.0.0"
 
-"@nestjs/testing@^5.4.0":
-  version "5.4.0"
-  resolved "http://registry.npm.taobao.org/@nestjs/testing/download/@nestjs/testing-5.4.0.tgz#4728021fc4012243b4dd2ffb4228b59df7770235"
-  integrity sha1-RygCH8QBIkO03S/7Qii1nfd3AjU=
+"@nestjs/testing@^5.5.0":
+  version "5.5.0"
+  resolved "http://registry.npm.taobao.org/@nestjs/testing/download/@nestjs/testing-5.5.0.tgz#4a77d78d100a1865668a671a792c13844f7ff43e"
+  integrity sha1-SnfXjRAKGGVmimcaeSwThE9/9D4=
   dependencies:
     deprecate "1.0.0"
     optional "0.1.4"
@@ -86,10 +113,10 @@
   dependencies:
     uuid "3.3.2"
 
-"@nestjs/websockets@^5.4.0":
-  version "5.4.0"
-  resolved "http://registry.npm.taobao.org/@nestjs/websockets/download/@nestjs/websockets-5.4.0.tgz#3ac836cc29474f177189da1d1e8d6690ee8e74ef"
-  integrity sha1-Osg2zClHTxdxidodHo1mkO6OdO8=
+"@nestjs/websockets@^5.5.0":
+  version "5.5.0"
+  resolved "http://registry.npm.taobao.org/@nestjs/websockets/download/@nestjs/websockets-5.5.0.tgz#f18a5b6a4802c20c42706aac3db47dabc0d1a97e"
+  integrity sha1-8YpbakgCwgxCcGqsPbR9q8DRqX4=
   dependencies:
     iterare "0.0.8"
     socket.io "^2.1.1"
@@ -1233,13 +1260,13 @@ cors@2.8.4:
     object-assign "^4"
     vary "^1"
 
-cors@^2.8.5:
-  version "2.8.5"
-  resolved "http://registry.npm.taobao.org/cors/download/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
-  integrity sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk=
+cron-parser@^2.7.3:
+  version "2.7.3"
+  resolved "http://registry.npm.taobao.org/cron-parser/download/cron-parser-2.7.3.tgz#12603f89f5375af353a9357be2543d3172eac651"
+  integrity sha1-EmA/ifU3WvNTqTV74lQ9MXLqxlE=
   dependencies:
-    object-assign "^4"
-    vary "^1"
+    is-nan "^1.2.1"
+    moment-timezone "^0.5.23"
 
 cross-spawn@^5.0.1:
   version "5.1.0"
@@ -1350,7 +1377,7 @@ defaults@^1.0.0:
   dependencies:
     clone "^1.0.2"
 
-define-properties@^1.1.2:
+define-properties@^1.1.1, define-properties@^1.1.2:
   version "1.1.3"
   resolved "http://registry.npm.taobao.org/define-properties/download/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
   integrity sha1-z4jabL7ib+bbcJT2HYcMvYTO6fE=
@@ -2779,6 +2806,13 @@ is-glob@^3.1.0:
   dependencies:
     is-extglob "^2.1.0"
 
+is-nan@^1.2.1:
+  version "1.2.1"
+  resolved "http://registry.npm.taobao.org/is-nan/download/is-nan-1.2.1.tgz#9faf65b6fb6db24b7f5c0628475ea71f988401e2"
+  integrity sha1-n69ltvttskt/XAYoR16nH5iEAeI=
+  dependencies:
+    define-properties "^1.1.1"
+
 is-number@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/is-number/download/is-number-2.1.0.tgz#01fcbbb393463a548f2f466cce16dece49db908f"
@@ -3734,6 +3768,11 @@ log4js@^3.0.6:
     rfdc "^1.1.2"
     streamroller "0.7.0"
 
+long-timeout@0.1.1:
+  version "0.1.1"
+  resolved "http://registry.npm.taobao.org/long-timeout/download/long-timeout-0.1.1.tgz#9721d788b47e0bcb5a24c2e2bee1a0da55dab514"
+  integrity sha1-lyHXiLR+C8taJMLivuGg2lXatRQ=
+
 loose-envify@^1.0.0:
   version "1.4.0"
   resolved "http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
@@ -3987,6 +4026,18 @@ mkdirp@0.5.1, mkdirp@0.x, mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+moment-timezone@^0.5.23:
+  version "0.5.23"
+  resolved "http://registry.npm.taobao.org/moment-timezone/download/moment-timezone-0.5.23.tgz#7cbb00db2c14c71b19303cb47b0fb0a6d8651463"
+  integrity sha1-fLsA2ywUxxsZMDy0ew+wpthlFGM=
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0":
+  version "2.23.0"
+  resolved "http://registry.npm.taobao.org/moment/download/moment-2.23.0.tgz#759ea491ac97d54bac5ad776996e2a58cc1bc225"
+  integrity sha1-dZ6kkayX1UusWtd2mW4qWMwbwiU=
+
 mongodb-core@3.1.7:
   version "3.1.7"
   resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-3.1.7.tgz#fe61853a6a6acbd2046c91794e5325ecad85428a"
@@ -4142,26 +4193,26 @@ negotiator@0.6.1:
   resolved "http://registry.npm.taobao.org/negotiator/download/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
   integrity sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=
 
-nestfy@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/nestfy/-/nestfy-0.6.1.tgz#e12990ba89fbdca694c813dd0e831ecd20b623be"
-  integrity sha512-RTSQ8NJVEFIyhbsNrcKQk35VVUIWY5egBiUKqbIZEbllddkedcTbOpyamwcPGe+AP/ecdCtES0ZvXiS/Sn5DGQ==
+nestfy@^0.7.3:
+  version "0.7.3"
+  resolved "http://registry.npm.taobao.org/nestfy/download/nestfy-0.7.3.tgz#b3bbc2c1829e5281d7b98b593376136eaa5f9f8a"
+  integrity sha1-s7vCwYKeUoHXuYtZM3YTbqpfn4o=
   dependencies:
-    "@nestjs/common" "^5.4.0"
-    "@nestjs/core" "^5.4.0"
-    "@nestjs/microservices" "^5.4.0"
+    "@nestjs/common" "^5.5.0"
+    "@nestjs/core" "^5.5.0"
+    "@nestjs/microservices" "^5.5.0"
     "@nestjs/swagger" "^2.5.1"
-    "@nestjs/testing" "^5.4.0"
+    "@nestjs/testing" "^5.5.0"
     "@nestjs/typeorm" "^5.2.2"
-    "@nestjs/websockets" "^5.4.0"
+    "@nestjs/websockets" "^5.5.0"
     body-parser "^1.18.3"
     class-transformer "^0.2.0"
     class-validator "^0.9.1"
-    cors "^2.8.5"
     jsonwebtoken "^8.4.0"
     log4js "^3.0.6"
     mkdirp "0.5.1"
     mysql "^2.16.0"
+    node-schedule "^1.3.1"
     redis "^2.8.0"
     reflect-metadata "^0.1.12"
     request "^2.88.0"
@@ -4209,6 +4260,15 @@ node-pre-gyp@^0.10.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
+
+node-schedule@^1.3.1:
+  version "1.3.1"
+  resolved "http://registry.npm.taobao.org/node-schedule/download/node-schedule-1.3.1.tgz#6909dd644211bca153b15afc62e1dc0afa7d28be"
+  integrity sha1-aQndZEIRvKFTsVr8YuHcCvp9KL4=
+  dependencies:
+    cron-parser "^2.7.3"
+    long-timeout "0.1.1"
+    sorted-array-functions "^1.0.0"
 
 nopt@^4.0.1:
   version "4.0.1"
@@ -5333,6 +5393,11 @@ socket.io@^2.1.1:
     socket.io-adapter "~1.1.0"
     socket.io-client "2.1.1"
     socket.io-parser "~3.2.0"
+
+sorted-array-functions@^1.0.0:
+  version "1.2.0"
+  resolved "http://registry.npm.taobao.org/sorted-array-functions/download/sorted-array-functions-1.2.0.tgz#43265b21d6e985b7df31621b1c11cc68d8efc7c3"
+  integrity sha1-QyZbIdbphbffMWIbHBHMaNjvx8M=
 
 source-map-resolve@^0.5.0:
   version "0.5.2"
