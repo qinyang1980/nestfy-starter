@@ -142,10 +142,10 @@
     multer "1.3.0"
     uuid "3.3.2"
 
-"@nestjs/common@^5.5.0":
-  version "5.5.0"
-  resolved "http://registry.npm.taobao.org/@nestjs/common/download/@nestjs/common-5.5.0.tgz#6427d440f96e23c38945620fd74cb6ec61da8224"
-  integrity sha1-ZCfUQPluI8OJRWIP10y27GHagiQ=
+"@nestjs/common@^5.6.2":
+  version "5.6.2"
+  resolved "http://registry.npm.taobao.org/@nestjs/common/download/@nestjs/common-5.6.2.tgz#e9f7b6516d1f31bcff428cfd688b816b25787966"
+  integrity sha1-6fe2UW0fMbz/Qoz9aIuBayV4eWY=
   dependencies:
     axios "0.18.0"
     cli-color "1.2.0"
@@ -169,10 +169,10 @@
     path-to-regexp "2.2.1"
     uuid "3.3.2"
 
-"@nestjs/core@^5.5.0":
-  version "5.5.0"
-  resolved "http://registry.npm.taobao.org/@nestjs/core/download/@nestjs/core-5.5.0.tgz#4f80bcfda1b964a6e1702c32f0afcbcc4a1706f7"
-  integrity sha1-T4C8/aG5ZKbhcCwy8K/LzEoXBvc=
+"@nestjs/core@^5.6.2":
+  version "5.6.2"
+  resolved "http://registry.npm.taobao.org/@nestjs/core/download/@nestjs/core-5.6.2.tgz#9735423667b29add537a74f6a65abbdc650fd3fe"
+  integrity sha1-lzVCNmeymt1TenT2plq73GUP0/4=
   dependencies:
     "@nuxtjs/opencollective" "0.1.0"
     body-parser "1.18.3"
@@ -185,10 +185,10 @@
     path-to-regexp "2.2.1"
     uuid "3.3.2"
 
-"@nestjs/microservices@^5.5.0":
-  version "5.5.0"
-  resolved "http://registry.npm.taobao.org/@nestjs/microservices/download/@nestjs/microservices-5.5.0.tgz#9fd6ef84dd1ccc955aed6fac910be874cbd9a1a8"
-  integrity sha1-n9bvhN0czJVa7W+skQvodMvZoag=
+"@nestjs/microservices@^5.6.2":
+  version "5.6.2"
+  resolved "http://registry.npm.taobao.org/@nestjs/microservices/download/@nestjs/microservices-5.6.2.tgz#6c025cff9ed79346e2d045fc719a98569dd511d3"
+  integrity sha1-bAJc/57Xk0bi0EX8cZqYVp3VEdM=
   dependencies:
     iterare "0.0.8"
     json-socket "^0.2.1"
@@ -211,10 +211,10 @@
     "@nestjs/common" "^5.0.0"
     "@nestjs/core" "^5.0.0"
 
-"@nestjs/testing@^5.5.0":
-  version "5.5.0"
-  resolved "http://registry.npm.taobao.org/@nestjs/testing/download/@nestjs/testing-5.5.0.tgz#4a77d78d100a1865668a671a792c13844f7ff43e"
-  integrity sha1-SnfXjRAKGGVmimcaeSwThE9/9D4=
+"@nestjs/testing@^5.6.2":
+  version "5.6.2"
+  resolved "http://registry.npm.taobao.org/@nestjs/testing/download/@nestjs/testing-5.6.2.tgz#5315f222ce1f93883700b2a9eeddb428c1fd3dff"
+  integrity sha1-UxXyIs4fk4g3ALKp7t20KMH9Pf8=
   dependencies:
     deprecate "1.0.0"
     optional "0.1.4"
@@ -226,10 +226,10 @@
   dependencies:
     uuid "3.3.2"
 
-"@nestjs/websockets@^5.5.0":
-  version "5.5.0"
-  resolved "http://registry.npm.taobao.org/@nestjs/websockets/download/@nestjs/websockets-5.5.0.tgz#f18a5b6a4802c20c42706aac3db47dabc0d1a97e"
-  integrity sha1-8YpbakgCwgxCcGqsPbR9q8DRqX4=
+"@nestjs/websockets@^5.6.2":
+  version "5.6.2"
+  resolved "http://registry.npm.taobao.org/@nestjs/websockets/download/@nestjs/websockets-5.6.2.tgz#5cdcd62d2adb10efa6bfb54f7e12fcf0fa1d9349"
+  integrity sha1-XNzWLSrbEO+mv7VPfhL88Podk0k=
   dependencies:
     iterare "0.0.8"
     socket.io "^2.1.1"
@@ -1028,11 +1028,6 @@ ci-info@^2.0.0:
   resolved "http://registry.npm.taobao.org/ci-info/download/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
   integrity sha1-Z6npZL4xpR4V5QENWObxKDQAL0Y=
 
-circular-json@^0.5.5:
-  version "0.5.9"
-  resolved "https://registry.npmjs.org/circular-json/-/circular-json-0.5.9.tgz#932763ae88f4f7dead7a0d09c8a51a4743a53b1d"
-  integrity sha512-4ivwqHpIFJZBuhN3g/pEcdbnGUywkBblloGbkglyloVjjR3uT6tieI89MVOfbP2tHX5sgb01FuLgAOzebNlJNQ==
-
 class-transformer@^0.2.0:
   version "0.2.0"
   resolved "http://registry.npm.taobao.org/class-transformer/download/class-transformer-0.2.0.tgz#e54b34112e8ef7f913ef938c81fed8ed949fc9c7"
@@ -1317,11 +1312,6 @@ data-urls@^1.0.0:
     abab "^2.0.0"
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
-
-date-format@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/date-format/-/date-format-1.2.0.tgz#615e828e233dd1ab9bb9ae0950e0ceccfa6ecad8"
-  integrity sha1-YV6CjiM90aubua4JUODOzPpuytg=
 
 date-format@^2.0.0:
   version "2.0.0"
@@ -3742,17 +3732,6 @@ lodash@~1.0.1:
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-1.0.2.tgz#8f57560c83b59fc270bd3d561b690043430e2551"
   integrity sha1-j1dWDIO1n8JwvT1WG2kAQ0MOJVE=
 
-log4js@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.npmjs.org/log4js/-/log4js-3.0.6.tgz#e6caced94967eeeb9ce399f9f8682a4b2b28c8ff"
-  integrity sha512-ezXZk6oPJCWL483zj64pNkMuY/NcRX5MPiB0zE6tjZM137aeusrOnW1ecxgF9cmwMWkBMhjteQxBPoZBh9FDxQ==
-  dependencies:
-    circular-json "^0.5.5"
-    date-format "^1.2.0"
-    debug "^3.1.0"
-    rfdc "^1.1.2"
-    streamroller "0.7.0"
-
 log4js@^4.0.1:
   version "4.0.1"
   resolved "http://registry.npm.taobao.org/log4js/download/log4js-4.0.1.tgz#34bd63d9a06fe98fc2f7df90506c8db7eb722625"
@@ -4057,10 +4036,10 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.yarnpkg.com/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha512-Yo/7qQU4/EyIS8YDFSeenIvXxZN+ld7YdV9LqFVQJzTLye8unujAWPZ4NWKfFA+RNjh+wvTWKY9Z3E5XM6ZZiQ==
 
-mongoose@^5.4.8:
-  version "5.4.8"
-  resolved "http://registry.npm.taobao.org/mongoose/download/mongoose-5.4.8.tgz#f56bc514ee51593ce31b4f794d1f26f97dce10e9"
-  integrity sha1-9WvFFO5RWTzjG095TR8m+X3OEOk=
+mongoose@^5.4.9:
+  version "5.4.9"
+  resolved "http://registry.npm.taobao.org/mongoose/download/mongoose-5.4.9.tgz#3cf4f74d2598e62974b7b617a4fa34a838bf32b4"
+  integrity sha1-PPT3TSWY5il0t7YXpPo0qDi/MrQ=
   dependencies:
     async "2.6.1"
     bson "~1.1.0"
@@ -4187,33 +4166,33 @@ negotiator@0.6.1:
   resolved "http://registry.npm.taobao.org/negotiator/download/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
   integrity sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=
 
-nestfy@^0.7.6:
-  version "0.7.6"
-  resolved "http://registry.npm.taobao.org/nestfy/download/nestfy-0.7.6.tgz#3d11e57f974aa68c0c55b20bfe3eb2a4d140b9c7"
-  integrity sha1-PRHlf5dKpowMVbIL/j6ypNFAucc=
+nestfy@^0.7.8:
+  version "0.7.8"
+  resolved "http://registry.npm.taobao.org/nestfy/download/nestfy-0.7.8.tgz#d44542150999f02a4554e324f3b90f4dd5bc2af1"
+  integrity sha1-1EVCFQmZ8CpFVOMk87kPTdW8KvE=
   dependencies:
-    "@nestjs/common" "^5.5.0"
-    "@nestjs/core" "^5.5.0"
-    "@nestjs/microservices" "^5.5.0"
+    "@nestjs/common" "^5.6.2"
+    "@nestjs/core" "^5.6.2"
+    "@nestjs/microservices" "^5.6.2"
     "@nestjs/swagger" "^2.5.1"
-    "@nestjs/testing" "^5.5.0"
+    "@nestjs/testing" "^5.6.2"
     "@nestjs/typeorm" "^5.2.2"
-    "@nestjs/websockets" "^5.5.0"
+    "@nestjs/websockets" "^5.6.2"
     body-parser "^1.18.3"
     class-transformer "^0.2.0"
     class-validator "^0.9.1"
     jsonc-parser "^2.0.2"
     jsonwebtoken "^8.4.0"
-    log4js "^3.0.6"
+    log4js "^4.0.1"
     mkdirp "0.5.1"
     mysql "^2.16.0"
     node-schedule "^1.3.1"
     redis "^2.8.0"
-    reflect-metadata "^0.1.12"
+    reflect-metadata "^0.1.13"
     request "^2.88.0"
     request-promise "^4.2.2"
-    rxjs "^6.3.3"
-    typeorm "^0.2.9"
+    rxjs "^6.4.0"
+    typeorm "^0.2.12"
 
 next-tick@1:
   version "1.0.0"
@@ -4918,7 +4897,7 @@ readable-stream@1.1.x, readable-stream@~1.1.9:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@2.3.6, readable-stream@^2.0.1, readable-stream@^2.0.6, readable-stream@^2.2.2, readable-stream@^2.3.0, readable-stream@^2.3.5, readable-stream@~2.3.6:
+readable-stream@2.3.6, readable-stream@^2.0.1, readable-stream@^2.0.6, readable-stream@^2.2.2, readable-stream@^2.3.5, readable-stream@~2.3.6:
   version "2.3.6"
   resolved "http://registry.npm.taobao.org/readable-stream/download/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
   integrity sha1-sRwn2IuP8fvgcGQ8+UsMea4bCq8=
@@ -4978,6 +4957,11 @@ reflect-metadata@^0.1.12:
   version "0.1.12"
   resolved "http://registry.npm.taobao.org/reflect-metadata/download/reflect-metadata-0.1.12.tgz#311bf0c6b63cd782f228a81abe146a2bfa9c56f2"
   integrity sha1-MRvwxrY814LyKKgavhRqK/qcVvI=
+
+reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "http://registry.npm.taobao.org/reflect-metadata/download/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha1-Z648pXyXKiqhZCsQ/jY/4y1J3Ag=
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"
@@ -5160,10 +5144,10 @@ rsvp@^3.3.3:
   resolved "http://registry.npm.taobao.org/rsvp/download/rsvp-3.6.2.tgz#2e96491599a96cde1b515d5674a8f7a91452926a"
   integrity sha1-LpZJFZmpbN4bUV1WdKj3qRRSkmo=
 
-rxjs@^6.3.3:
-  version "6.3.3"
-  resolved "http://registry.npm.taobao.org/rxjs/download/rxjs-6.3.3.tgz#3c6a7fa420e844a81390fb1158a9ec614f4bad55"
-  integrity sha1-PGp/pCDoRKgTkPsRWKnsYU9LrVU=
+rxjs@^6.4.0:
+  version "6.4.0"
+  resolved "http://registry.npm.taobao.org/rxjs/download/rxjs-6.4.0.tgz#f3bb0fe7bda7fb69deac0c16f17b50b0b8790504"
+  integrity sha1-87sP572n+2nerAwW8XtQsLh5BQQ=
   dependencies:
     tslib "^1.9.0"
 
@@ -5564,16 +5548,6 @@ stream-consume@~0.1.0:
   resolved "http://registry.npm.taobao.org/stream-consume/download/stream-consume-0.1.1.tgz#d3bdb598c2bd0ae82b8cac7ac50b1107a7996c48"
   integrity sha1-0721mMK9CugrjKx6xQsRB6eZbEg=
 
-streamroller@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.npmjs.org/streamroller/-/streamroller-0.7.0.tgz#a1d1b7cf83d39afb0d63049a5acbf93493bdf64b"
-  integrity sha512-WREzfy0r0zUqp3lGO096wRuUp7ho1X6uo/7DJfTlEi0Iv/4gT7YHqXDjKC2ioVGBZtE8QzsQD9nx1nIuoZ57jQ==
-  dependencies:
-    date-format "^1.2.0"
-    debug "^3.1.0"
-    mkdirp "^0.5.1"
-    readable-stream "^2.3.0"
-
 streamroller@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/streamroller/download/streamroller-1.0.1.tgz#6771c9c750638e3ad9de93781d431a05514eeb2f"
@@ -5960,10 +5934,10 @@ typedarray@^0.0.6:
   resolved "http://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeorm@^0.2.9:
-  version "0.2.9"
-  resolved "http://registry.npm.taobao.org/typeorm/download/typeorm-0.2.9.tgz#b21a55f4c7ae398c104911e298485c232bcceefc"
-  integrity sha1-shpV9MeuOYwQSRHimEhcIyvM7vw=
+typeorm@^0.2.12:
+  version "0.2.12"
+  resolved "http://registry.npm.taobao.org/typeorm/download/typeorm-0.2.12.tgz#faa1bef1af185b682ad28d09aebeef3a7bbcf756"
+  integrity sha1-+qG+8a8YW2gq0o0Jrr7vOnu891Y=
   dependencies:
     app-root-path "^2.0.1"
     buffer "^5.1.0"
@@ -5975,9 +5949,10 @@ typeorm@^0.2.9:
     js-yaml "^3.11.0"
     mkdirp "^0.5.1"
     reflect-metadata "^0.1.12"
+    tslib "^1.9.0"
     xml2js "^0.4.17"
     yargonaut "^1.1.2"
-    yargs "^11.1.0"
+    yargs "^12.0.5"
 
 typescript@^3.3.1:
   version "3.3.1"
@@ -6348,13 +6323,6 @@ yargs-parser@^8.1.0:
   dependencies:
     camelcase "^4.1.0"
 
-yargs-parser@^9.0.2:
-  version "9.0.2"
-  resolved "http://registry.npm.taobao.org/yargs-parser/download/yargs-parser-9.0.2.tgz#9ccf6a43460fe4ed40a9bb68f48d43b8a68cc077"
-  integrity sha1-nM9qQ0YP5O1Aqbto9I1DuKaMwHc=
-  dependencies:
-    camelcase "^4.1.0"
-
 yargs@^10.0.3:
   version "10.1.2"
   resolved "http://registry.npm.taobao.org/yargs/download/yargs-10.1.2.tgz#454d074c2b16a51a43e2fb7807e4f9de69ccb5c5"
@@ -6373,25 +6341,7 @@ yargs@^10.0.3:
     y18n "^3.2.1"
     yargs-parser "^8.1.0"
 
-yargs@^11.1.0:
-  version "11.1.0"
-  resolved "http://registry.npm.taobao.org/yargs/download/yargs-11.1.0.tgz#90b869934ed6e871115ea2ff58b03f4724ed2d77"
-  integrity sha1-kLhpk07W6HERXqL/WLA/RyTtLXc=
-  dependencies:
-    cliui "^4.0.0"
-    decamelize "^1.1.1"
-    find-up "^2.1.0"
-    get-caller-file "^1.0.1"
-    os-locale "^2.0.0"
-    require-directory "^2.1.1"
-    require-main-filename "^1.0.1"
-    set-blocking "^2.0.0"
-    string-width "^2.0.0"
-    which-module "^2.0.0"
-    y18n "^3.2.1"
-    yargs-parser "^9.0.2"
-
-yargs@^12.0.2:
+yargs@^12.0.2, yargs@^12.0.5:
   version "12.0.5"
   resolved "http://registry.npm.taobao.org/yargs/download/yargs-12.0.5.tgz#05f5997b609647b64f66b81e3b4b10a368e7ad13"
   integrity sha1-BfWZe2CWR7ZPZrgeO0sQo2jnrRM=
